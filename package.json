@@ -1,0 +1,26 @@
+{
+  "name": "landingpage",
+  "version": "1.0.0",
+  "description": "This is simple landing page",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryursul/landing-page.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Mary Ursul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryursul/landing-page/issues"
+  },
+  "homepage": "https://github.com/maryursul/landing-page#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
