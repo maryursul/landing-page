@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+#main-background {
+  background: url('../img/annie-spratt-K4vGUuX1jtQ-unsplash.jpg') center center no-repeat;
+  height: 0px;
+  max-height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#main-text {
+  opacity: 0;
+}
+
+.site-title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#navbar {
+  background-color: #FADADD;
+
+  position: fixed;
+  width: 100%;
+  opacity: 0;
+  z-index: 9999;
+  box-shadow: 0px 10px 32px -5px rgba(0,0,0,0.46);
+}
+
+#navbarNavAltMarkup {
+  justify-content: flex-end;
+}
