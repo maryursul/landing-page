@@ -13,6 +13,8 @@ $(window).scroll(() => {
 });
 
 $(window).scroll(() => {
+  console.log('this', this);
+  
  
   if($(this).scrollTop() != 0) {
    
