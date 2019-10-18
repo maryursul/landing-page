@@ -7,6 +7,7 @@
   <title>Document</title>
   <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
   <link href="css/index.css" type="text/css" rel="stylesheet" />
+  <img width="60" height="60" src="img/top.svg" id="toTop"/>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
@@ -16,34 +17,40 @@
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#" id="general-info-button">General Information</a>
-        <a class="nav-item nav-link active" href="#">About us</a>
-        <a class="nav-item nav-link active" href="#">Potfolio</a>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#" id="general-info">General Information</a>
+          <a class="nav-item nav-link active" href="#" id="photoes">Photoes</a>
+          <a class="nav-item nav-link active" href="#" id="contact-info">Contact information</a>
+        </div>
       </div>
-    </div>
   </nav>
 
   <div class="text-center" id="main-background">
     <div class="card-body text-center" id="main-text">
       <h5 class="site-title">Little Mary beauty</h5>
       <p class="card-text">Life is more beautiful when you meet the right hairdresser.</p>
-      <a href="#" class="btn btn-outline-danger" onclick="">More information</a>
+      <a href="#" class="btn btn-outline-danger" onclick="" id="more-info">More information</a>
     </div>
   </div>
- 
-  <div class="info">
-    <hr class="hr"> <p id="general-info">General Info </p> <hr class="hr"> 
+
+  <div class="info" id="general">
+    <hr class="hr">
+    <p id="general-info">General Info </p>
+    <hr class="hr">
   </div>
   <div id="about-us">
     <div id="first-info">
       <h4 class="title">About us</h4>
       <p class="info-text">Little Mary beauty is a full service women’s hair salon located in Lviv.
 
-Our professional team is current with all the latest styles and trends to provide you with your best look. We specialize in Deva cuts, single-process color, highlighting, and Pintura.
+        Our professional team is current with all the latest styles and trends to provide you with your best look. We
+        specialize in Deva cuts, single-process color, highlighting, and Pintura.
 
-We strive for the highest quality of service, while maintaining a fun, friendly, non-pretentious environment.</p>
+        We strive for the highest quality of service, while maintaining a fun, friendly, non-pretentious environment.
+      </p>
     </div>
     <div id="second-info">
       <img src="img/facebook.svg" width="30" height="30" />
@@ -59,8 +66,10 @@ We strive for the highest quality of service, while maintaining a fun, friendly,
 
 
   </div>
-  <div class="info">
-    <hr class="hr"> <p id="general-info">Photoes</p> <hr class="hr">
+  <div class="info" id="photoes-info">
+    <hr class="hr">
+    <p id="general-info">Photoes</p>
+    <hr class="hr">
   </div>
 
   <div class="bd-example">
@@ -72,21 +81,24 @@ We strive for the highest quality of service, while maintaining a fun, friendly,
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active" id="a">
-          <img height="500" src="./img/Inside San Francisco's Most Talked About Nail Salon _ Domino.jpg" class="d-block w-100" alt="...">
+          <img height="500" src="./img/Inside San Francisco's Most Talked About Nail Salon _ Domino.jpg"
+            class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
         <div class="carousel-item" id="a">
-          <img  height="500" src="./img/Mayfair haunt Annabel’s swings open its maximalist doors.jpg" class="d-block w-100" alt="...">
+          <img height="500" src="./img/Mayfair haunt Annabel’s swings open its maximalist doors.jpg"
+            class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img  height="500" src="./img/_Сute & Cava_ Coffe Bar and Beauty Saloon _ M Design.jpg" class="d-block w-100" alt="...">
+          <img height="500" src="./img/_Сute & Cava_ Coffe Bar and Beauty Saloon _ M Design.jpg" class="d-block w-100"
+            alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Third slide label</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -104,7 +116,50 @@ We strive for the highest quality of service, while maintaining a fun, friendly,
     </div>
   </div>
 
-  <hr style="width:80%">
+  <div class="info" id="contact">
+    <hr class="hr">
+    <p id="general-info">Contact info</p>
+    <hr class="hr">
+  </div>
+  <div class="contact-info-wrapper">
+    <div class="about-footer">
+      <h4 class="h4">Little Mary beauty</h4>
+      <p>Little Mary beauty is a full service women’s hair salon located in Lviv.
+
+          Our professional team is current with all the latest styles and trends to provide you with your best look. We
+          specialize in Deva cuts, single-process color, highlighting, and Pintura.
+  
+          We strive for the highest quality of service, while maintaining a fun, friendly, non-pretentious environment.</p>
+     
+    </div>
+    <div class="contacts">
+      <div class="contacts-info">
+        <h4 class="h4">Contacts</h4>
+        <p>Mary Ursul - director</p>
+        <p>E: maursul@gmail.com</p>
+        <p>P: 123456789</p>
+       
+      </div>
+      <div class="location">
+        <h4 class="h4">Location</h4>
+        <p>667A Tremont Street
+            Boston, MA 02118</p>
+      </div>
+
+
+    </div>
+    <div class="folow-us">
+      <h4 class="h4">Folow us</h4>
+      <div class="social">
+      <img src="img/facebook.svg" width="30" height="30" />
+      <img src="img/instagram.svg" width="30" height="30" />
+      <img src="img/pinterest.svg" width="30" height="30" />
+    </div>
+       Made with ❤️ by Mary Ursul
+    </div>
+
+  </div>
+
 
 
   <script src="../node_modules/jquery/dist/jquery.min.js"></script>
