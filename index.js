@@ -41,16 +41,13 @@ $(window).scroll(() => {
     }, 1300);
   }
   //якщо в навбарі є менюшка, якої немає в html то вертає наверх
-  // $(document).ready(() => {
-  //   $(this).scrollTop(0);
-  // });
-  // //якщо ми вс
+
 
   $('#general-info').click(() => {
     navbarScroll($('#general').offset().top - 56);
   });
-  $('#photoes').click(() => {
-    navbarScroll($('#photoes-info').offset().top - 56);
+  $('#photos').click(() => {
+    navbarScroll($('#photos-info').offset().top - 56);
   });
   $('#contact-info').click(() => {
     navbarScroll($('#contact').offset().top - 56);
